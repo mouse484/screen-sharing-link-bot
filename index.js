@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client();
 
-client.login(prosess.env.TOKEN);
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log(`${client.user.tag}を起動`);
